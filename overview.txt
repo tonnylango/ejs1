@@ -1,0 +1,12 @@
+EJS(Embedded Javascript)
+1. <%= %> : Outputs the value of the JS Expression inside it. <h1>Hello, <%= name %>!</h1>
+2. <%- %> Outputs the  unescaped value of JS Expression 
+3. <% %> Executes the JS code without any output.
+4. <%# %> Comments out the code
+
+thing to know:
+1. Rendering a View
+2. Loops and Conditionals
+3. Partials. <%- include('partials/header') %>
+4. Layouts. provide structure for your pages.
+5. Passing Data to Views

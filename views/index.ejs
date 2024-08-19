@@ -1,0 +1,11 @@
+<h1>Hello <%= foo %></h1>
+
+<ul>
+    <% for(var person of people) { %>
+        <% if(person.name === 'dave') { %>
+            <li>This is definately <%= person.name %>!!!</li>
+        <% } else { %>
+            <li><%= person.name %></li>
+        <% } %>
+    <% } %>
+</ul>
